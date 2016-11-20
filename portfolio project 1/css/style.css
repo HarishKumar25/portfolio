@@ -1,0 +1,81 @@
+.container {
+font-family: "oxygen", sans-serif;
+}
+.name {
+    font-size: 60px;
+}
+
+.thick-line {
+    background-color: #7d79ad;
+    height: 5px;
+    width: 100%;
+    color: #7d79ad;
+}
+.topic {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.project-img {
+    height: 203px;
+    width: 100%;
+}
+.caption {
+    padding-bottom: 30px;
+}
+/*@media screen and (min-width: 420px)
+{
+    .height {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 600px) {
+    .height {
+        width: 100%;
+        height: 285px;
+    }
+
+}*/
+
+@media screen and (max-width: 995px) {
+    .height {
+        display: inline;
+    }
+
+    .logo-section {
+        width: 40%;
+        margin: 0 0 0 0;
+    }
+
+    .name-section {
+        width: 40%;
+        margin: 0 0 0 0;
+    }
+
+    .col-md-6 {
+        width: 49%;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .col-md-6 {
+        width: 47%;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+}
